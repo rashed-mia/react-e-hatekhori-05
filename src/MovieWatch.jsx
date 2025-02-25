@@ -52,7 +52,7 @@ export default function MovieWatch() {
   });
   
   return (
-    <div className="flex flex-col w-1/2 mx-auto m-3 items-center justify-center p-6 bg-slate-900 text-white rounded-lg shadow-lg">
+    <div className="flex flex-col md:w-1/2 mx-auto m-3 items-center justify-center p-6 bg-slate-900 text-white rounded-lg shadow-lg">
       <Header />
       <MovieForm addMovie={addMovie} />
       <MovieFilters setFilter={setFilter} />
